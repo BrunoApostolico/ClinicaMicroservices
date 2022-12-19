@@ -7,6 +7,10 @@
         <option value="$PROJECT_DIR$/../paciente/pom.xml" />
         <option value="$PROJECT_DIR$/eureka/pom.xml" />
         <option value="$PROJECT_DIR$/../eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/clinica/pom.xml" />
+        <option value="$PROJECT_DIR$/paciente/pom.xml" />
+        <option value="$PROJECT_DIR$/pacientes/pom.xml" />
+        <option value="$PROJECT_DIR$/pessoa/pom.xml" />
       </list>
     </option>
   </component>

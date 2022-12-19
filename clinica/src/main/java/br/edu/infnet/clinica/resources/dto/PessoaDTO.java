@@ -1,15 +1,27 @@
 package br.edu.infnet.clinica.resources.dto;
 
 public class PessoaDTO {
-       private Integer id;
+       private Integer codigo;
        private String nome;
+       private Integer idade;
 
-    public Integer getId() {
-        return id;
+    public PessoaDTO() {
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public Integer getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(Integer codigo) {
+        this.codigo = codigo;
+    }
+
+    public Integer getIdade() {
+        return idade;
+    }
+
+    public void setIdade(Integer idade) {
+        this.idade = idade;
     }
 
     public String getNome() {
@@ -23,8 +35,9 @@ public class PessoaDTO {
     @Override
     public String toString() {
         return "PessoaDTO{" +
-                "id=" + id +
+                "codigo=" + codigo +
                 ", nome='" + nome + '\'' +
+                ", idade=" + idade +
                 '}';
     }
 }

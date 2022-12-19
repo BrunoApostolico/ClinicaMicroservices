@@ -1236,25 +1236,48 @@
       <Engine>InnoDB</Engine>
       <CollationName>latin1_swedish_ci</CollationName>
     </table>
-    <column id="346" parent="345" name="codigo">
+    <table id="346" parent="324" name="pessoa">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <column id="347" parent="345" name="codigo">
+      <AutoIncrement>101</AutoIncrement>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="348" parent="345" name="email">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="349" parent="345" name="endereco">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="350" parent="345" name="nome">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <key id="351" parent="345" name="PRIMARY">
+      <ColNames>codigo</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="352" parent="346" name="codigo">
       <AutoIncrement>1</AutoIncrement>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="347" parent="345" name="email">
-      <DataType>varchar(255)|0s</DataType>
+    <column id="353" parent="346" name="idade">
+      <DataType>int(11)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="348" parent="345" name="endereco">
+    <column id="354" parent="346" name="nome">
       <DataType>varchar(255)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="349" parent="345" name="nome">
-      <DataType>varchar(255)|0s</DataType>
-      <Position>4</Position>
-    </column>
-    <key id="350" parent="345" name="PRIMARY">
+    <key id="355" parent="346" name="PRIMARY">
       <ColNames>codigo</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
