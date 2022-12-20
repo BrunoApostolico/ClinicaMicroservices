@@ -11,9 +11,16 @@
         <module name="clinica" />
         <module name="paciente" />
       </profile>
+      <profile name="Annotation profile for configserver" enabled="true">
+        <sourceOutputDir name="../clinica/configserver/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../clinica/configserver/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="configserver" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="clinica" target="11" />
+      <module name="configserver" target="17" />
       <module name="eureka" target="17" />
       <module name="paciente" target="11" />
       <module name="pacientes" target="11" />
@@ -23,6 +30,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="clinica" options="-parameters" />
+      <module name="configserver" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="paciente" options="-parameters" />
       <module name="pacientes" options="-parameters" />
