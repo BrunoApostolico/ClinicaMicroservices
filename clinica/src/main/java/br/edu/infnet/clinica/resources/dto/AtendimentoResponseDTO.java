@@ -3,21 +3,21 @@ package br.edu.infnet.clinica.resources.dto;
 import java.util.List;
 
 public class AtendimentoResponseDTO {
-    private PacienteDTO pacienteDTO;
+    private PacienteDTO paciente;
     private List<PessoaDTO> listaPessoaDTO;
 
     public AtendimentoResponseDTO(){
 
     }
 
-    public AtendimentoResponseDTO(PacienteDTO pacienteDTO, List<PessoaDTO> listaPessoaDTO) {
+    public AtendimentoResponseDTO(PacienteDTO paciente, List<PessoaDTO> listaPessoaDTO) {
         super();
-        this.pacienteDTO = pacienteDTO;
+        this.paciente = paciente;
         this.listaPessoaDTO = listaPessoaDTO;
     }
 
     public PacienteDTO getPacienteDTO() {
-        return pacienteDTO;
+        return paciente;
     }
 
     public List<PessoaDTO> getListaPessoaDTO() {

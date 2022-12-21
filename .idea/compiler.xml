@@ -7,15 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="pessoa" />
+        <module name="configserver" />
         <module name="eureka" />
         <module name="clinica" />
         <module name="paciente" />
-      </profile>
-      <profile name="Annotation profile for configserver" enabled="true">
-        <sourceOutputDir name="../clinica/configserver/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../clinica/configserver/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="configserver" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
