@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Clinica Microservices.iml" filepath="$PROJECT_DIR$/Clinica Microservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/clinica/clinica.iml" filepath="$PROJECT_DIR$/clinica/clinica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clinica/configserver/configserver.iml" filepath="$PROJECT_DIR$/clinica/configserver/configserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/pacientes/paciente.iml" filepath="$PROJECT_DIR$/pacientes/paciente.iml" />
       <module fileurl="file://$PROJECT_DIR$/pessoa/pessoa.iml" filepath="$PROJECT_DIR$/pessoa/pessoa.iml" />
