@@ -8,13 +8,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="834d4e8c-1445-41e5-9f21-aaae5f2e36e9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_logstash_logback_logstash_logback_encoder_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinica/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pacientes/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pessoa/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clinica/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clinica/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica/src/main/java/br/edu/infnet/clinica/resources/dto/AtendimentoResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica/src/main/java/br/edu/infnet/clinica/resources/dto/AtendimentoResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica/src/main/java/br/edu/infnet/clinica/resources/AtedimentoResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica/src/main/java/br/edu/infnet/clinica/resources/AtedimentoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pacientes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pacientes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pacientes/src/main/java/br/edu/infnet/pacientes/modelo/entidades/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/pacientes/src/main/java/br/edu/infnet/pacientes/modelo/entidades/Paciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pacientes/src/main/java/br/edu/infnet/pacientes/resources/PacienteResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/pacientes/src/main/java/br/edu/infnet/pacientes/resources/PacienteResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pessoa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pessoa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pessoa/src/main/java/br/edu/infnet/pessoa/resources/PessoaResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/pessoa/src/main/java/br/edu/infnet/pessoa/resources/PessoaResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +94,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-18",
-    "last_opened_file_path": "D:/Dev/pos-live/Clinica Microservices/clinica",
+    "last_opened_file_path": "D:/Dev/pos-live/Clinica Microservices/pacientes/src/main/resources",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "spring.configuration.checksum": "d6af4d767411229aa2f0f88628ee9457"
@@ -100,7 +105,14 @@
     ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\pos-live\Clinica Microservices\pacientes\src\main\resources" />
+      <recent name="D:\Dev\pos-live\Clinica Microservices\pessoa\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Dev\pos-live\Clinica Microservices" />
       <recent name="D:\Dev\pos-live\" />
@@ -187,7 +199,7 @@
       <workItem from="1671475009140" duration="30000" />
       <workItem from="1671475080394" duration="21589000" />
       <workItem from="1671635435732" duration="2176000" />
-      <workItem from="1671637740916" duration="7508000" />
+      <workItem from="1671637740916" duration="18990000" />
     </task>
     <servers />
   </component>
@@ -222,5 +234,16 @@
       <path value="$PROJECT_DIR$/clinica" />
       <path value="$PROJECT_DIR$/../clinica" />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clinica/src/main/java/br/edu/infnet/clinica/resources/AtedimentoResource.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

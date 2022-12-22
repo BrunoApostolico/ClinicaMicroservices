@@ -5,6 +5,8 @@ import br.edu.infnet.clinica.resources.dto.AtendimentoDTO;
 import br.edu.infnet.clinica.resources.dto.AtendimentoResponseDTO;
 import br.edu.infnet.clinica.resources.dto.PacienteDTO;
 import br.edu.infnet.clinica.resources.dto.PessoaDTO;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
@@ -18,7 +20,9 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/atendimentos")
-public class AtedimentoResources {
+public class AtedimentoResource {
+
+    private static Logger log = LoggerFactory.getLogger(AtedimentoResource.class);
 
     @Autowired
     private RestTemplate restTemplate;
@@ -32,13 +36,18 @@ public class AtedimentoResources {
     @PostMapping
     public AtendimentoResponseDTO efetuaAtendimento(@RequestBody AtendimentoDTO atendimentoDTO){
 
+        log.info("Solicitação para atendimento com a informação: {}", atendimentoDTO);
+
+        if(log.isDebugEnabled()){
+            log.debug("Debug Ligado");
+        }
+
         PacienteDTO pacienteDTO = restTemplate.getForObject(pacienteApiUrl+
                 atendimentoDTO.getPacienteId(), PacienteDTO.class);
-        System.out.println(pacienteDTO);
-        System.out.println(atendimentoDTO);
+
+        log.info("Chamada a API de pacientes realizada: {}", pacienteDTO);
 
         ResponseEntity<List<PessoaDTO>> pessoas = pessoaClient.getPessoas();
-        System.out.println("foi " + pessoas.getBody());
 
         return new AtendimentoResponseDTO(pacienteDTO,pessoas.getBody());
     }
