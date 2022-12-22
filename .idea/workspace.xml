@@ -8,18 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="834d4e8c-1445-41e5-9f21-aaae5f2e36e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_logstash_logback_logstash_logback_encoder_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinica/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pacientes/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pessoa/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clinica/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica/src/main/java/br/edu/infnet/clinica/resources/AtedimentoResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica/src/main/java/br/edu/infnet/clinica/resources/AtedimentoResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pacientes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pacientes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pacientes/src/main/java/br/edu/infnet/pacientes/modelo/entidades/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/pacientes/src/main/java/br/edu/infnet/pacientes/modelo/entidades/Paciente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pacientes/src/main/java/br/edu/infnet/pacientes/resources/PacienteResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/pacientes/src/main/java/br/edu/infnet/pacientes/resources/PacienteResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pessoa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pessoa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pessoa/src/main/java/br/edu/infnet/pessoa/resources/PessoaResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/pessoa/src/main/java/br/edu/infnet/pessoa/resources/PessoaResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +188,7 @@
       <workItem from="1671475009140" duration="30000" />
       <workItem from="1671475080394" duration="21589000" />
       <workItem from="1671635435732" duration="2176000" />
-      <workItem from="1671637740916" duration="18990000" />
+      <workItem from="1671637740916" duration="20306000" />
     </task>
     <servers />
   </component>
